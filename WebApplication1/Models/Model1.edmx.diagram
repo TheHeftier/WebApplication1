@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ba36d8ddd8554b92ab9803aba9951762" Name="Diagram1">
+        <EntityTypeShape EntityType="HelpDeskModel.Message" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HelpDeskModel.Priority" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HelpDeskModel.Status" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="HelpDeskModel.Ticket" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="HelpDeskModel.Type" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="HelpDeskModel.FK__Message__IdTicke__22751F6C" ManuallyRouted="false" />
+        <AssociationConnector Association="HelpDeskModel.FK__Ticket__IdPriori__1F98B2C1" ManuallyRouted="false" />
+        <AssociationConnector Association="HelpDeskModel.FK__Ticket__IdStatus__1DB06A4F" ManuallyRouted="false" />
+        <AssociationConnector Association="HelpDeskModel.FK__Ticket__IdType__1EA48E88" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
